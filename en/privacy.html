@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Petfolio</title>
+<style>body{margin:0 auto;padding:24px;max-width:44rem;font:16px/1.6 -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#22292E;background:#FFFDF8}
+h1{font-size:1.5rem;line-height:1.3}h2{font-size:1.15rem;margin-top:1.6em}
+a{color:#1F8A8A}
+ul{padding-left:1.2em}li{margin:.4em 0}
+.meta{color:#6B7480;font-size:.9rem}
+@media(prefers-color-scheme:dark){body{background:#14181B;color:#E7EAED}a{color:#4FBFBF}.meta{color:#98A2AD}}
+</style>
+</head>
+<body>
+<h1>Privacy Policy</h1>
+<p class="meta">Petfolio · revised 2026-08-12</p>
+<p>This page says plainly what data the Petfolio app handles, why, where it is stored and what you can do about it. No legalese.</p>
+<h2>1. Who we are</h2>
+<p>The controller of your personal data is Danila Kazantsev, an individual registered as a self-employed taxpayer under the laws of the Russian Federation, tax ID 330302939838. For anything to do with your data, write to terrorobado@gmail.com.</p>
+<h2>2. What we collect</h2>
+<p>Your email address and password. These are the only personal data we deliberately collect. The password is stored as a hash only — it cannot be read back.</p>
+<p>Your pet's details: name, species, breed, sex, date of birth, weight, photos. These are data about an animal, not personal data about you.</p>
+<p>Your diary and health record entries, including the free text of your notes, and the photos attached to them.</p>
+<p>Consents: what you accepted and when, with the version date of the document.</p>
+<p>Internal counters of your requests to Churchill, so we can apply the usage limits.</p>
+<p>Anonymous usage statistics, described in detail in section 7.</p>
+<p>We do not collect your location, your contacts or advertising identifiers, and we show no ads.</p>
+<h2>3. Why we process it, and on what legal basis</h2>
+<p>To make the app work and to sync your entries between your devices. Legal basis: performance of our contract with you, that is, the Terms of Service — Article 6(1)(b) GDPR.</p>
+<p>So that Churchill can answer questions about your pet. Same basis: it is one of the features of the app you signed up for.</p>
+<p>To send you news and tips — only if you opted in to the newsletter. Legal basis: your consent, Article 6(1)(a) GDPR. It is off by default, no email arrives without it, and you can withdraw it with a single toggle at any time.</p>
+<p>To understand which parts of the app are actually used. Legal basis: our legitimate interest in improving the app, Article 6(1)(f) GDPR. The data is anonymous, it is never matched to accounts, and you can switch the collection off in the settings — see section 7.</p>
+<h2>4. Where the data lives</h2>
+<p>In the Supabase cloud, in a data centre in the European Union: Frankfurt, Germany. Access is restricted row by row inside the database itself, so each person only ever sees their own rows.</p>
+<p>A copy of your diary is also kept on your device — that is why the app works offline.</p>
+<h2>5. International transfers</h2>
+<p>Storage stays in the European Union. Questions to Churchill are processed by Anthropic (USA), which runs the large language model Claude.</p>
+<p>Anthropic is certified under the EU-U.S. Data Privacy Framework, so the transfer rests on the European Commission's adequacy decision for that framework. As a fallback, Anthropic's data processing agreement also includes the Standard Contractual Clauses, together with the UK Addendum, so the transfer stays covered even if the framework itself changes.</p>
+<p>What goes to Anthropic: the text of your question, a short summary of your pet — species, name, recent diary entries, a digest of the health record — and a photo, but only the one you attached to the question yourself. Other pictures from your gallery and your diary are not sent.</p>
+<p>What does not go: your email address, your password, your account identifier, payment details.</p>
+<p>Before sending, we automatically strip phone numbers, email addresses, links and nicknames out of the text.</p>
+<p>Still, a request: please don't write personal data about people in your notes — neither yours nor anyone else's. No feature of the app needs it.</p>
+<h2>6. Who else gets the data</h2>
+<p>Nobody. We do not sell your data and we do not share it for advertising. Our infrastructure providers — the cloud hosting and the processing of questions to Churchill — handle the data only to the extent needed to run the service, and only on our instructions.</p>
+<h2>7. Usage statistics</h2>
+<p>To understand which parts of the app people use, we collect anonymous statistics: which screens were opened, which actions were performed, which kinds of entries were created. Each device gets a random installation identifier that the app generates itself. That identifier is tied neither to your email address nor to your account.</p>
+<p>What never goes into the statistics: the contents of your diary notes, the text of questions to Churchill and his answers, photos, diagnoses, medication names and dosages, your pet's name and breed, your email address, search queries, location and advertising identifiers.</p>
+<p>Each event carries a technical envelope: the time of the event, the platform (iOS or Android), the app build version, the event schema version, a random identifier of the app session, and an internal counter of events that did not fit into the device's memory. The session identifier is there to tell one visit from another; it is created anew if you come back after more than half an hour, and it has no link to your account. While events are waiting to be sent, it is stored alongside them in the device's memory.</p>
+<p>We round the time of each event down to the hour, on purpose. An exact timestamp together with the installation identifier would make it possible to line the statistics up against the records in an account; rounding makes that impossible, because everyone who used the app in a given hour lands in the same bucket. Neither an email address nor an account identifier appears in the statistics at all, and we do not match them against accounts.</p>
+<p>We pass the statistics to nobody: they are stored in the same database as the rest of the app's data, and no external analytics services are used.</p>
+<p>Retention. The events themselves live 30 days and are then deleted; what remains is daily numeric summaries with no identifiers, and those are kept indefinitely. A device activity map lives separately: the installation identifier plus marks saying "on this day the app was opened, on that day the diary was used". It exists to show whether people come back after weeks and months, and it is kept for up to 400 days from the last appearance, after which it is deleted together with the identifier itself.</p>
+<p>You can switch the collection off with the "Anonymous usage statistics" toggle under Settings → Legal &amp; data. Turning it off stops the collection immediately.</p>
+<p>When you delete your account, that device's statistics are deleted along with it. To know which rows to delete, the app attaches the installation identifier to the deletion request; afterwards the identifier is wiped from the device too, and anything collected but not yet sent is deleted as well, not sent later.</p>
+<h2>8. How long we keep data</h2>
+<p>For as long as you use the app. If nobody signs in for 3 years, we delete the cloud copy: profile, diary, health record, reports and photos. The copy on your phone stays — it goes when you delete the app.</p>
+<p>When you delete a record, its photos are removed straight away, both from the phone and from the cloud. The record itself becomes a contentless "deleted" marker: it exists so the deletion reaches your other devices, lives 180 days and then disappears for good.</p>
+<h2>9. Your rights</h2>
+<p>Under the GDPR you have the right to ask us for access to your data, to have it corrected, to have it erased, to receive it in a portable form, to restrict our processing of it, and to object to processing based on our legitimate interest. Where we rely on your consent, you can withdraw it at any time — that does not affect anything we did while the consent was in place.</p>
+<p>You can take your data yourself — Settings → Account &amp; data → Export data builds an archive with your records and photos, right there on the device.</p>
+<p>To use any of these rights, write to terrorobado@gmail.com. We answer within one month. If a request turns out to be genuinely complicated, the GDPR lets us extend that by two more months — in that case we will tell you within the first month, and why.</p>
+<p>You can delete your account in two ways: in the app, under Settings → Legal &amp; data → Delete account, or by a request to terrorobado@gmail.com. The documents website also has a page explaining how to make that request.</p>
+<p>You can withdraw your consent to the newsletter with the "News &amp; tips" toggle under Settings → Legal &amp; data, or with the unsubscribe link in any email. Your account stays as it is: the newsletter is a separate consent, not the basis on which the app works for you.</p>
+<p>If you think we handled your data wrongly, please write to us first — it is the fastest route. You also have the right to complain to the data protection supervisory authority of the country where you live or work.</p>
+<h2>10. California residents</h2>
+<p>We do not sell your personal information and we do not share it for cross-context behavioural advertising. We have not done so in the past twelve months, and we do not do it with the data of minors either.</p>
+<p>The categories of personal information we collect are the ones listed in section 2: your email address and password, the content you create in the app, the record of your consents, internal request counters and anonymous usage statistics. Why we collect them is in section 3, how long we keep them is in sections 7 and 8, and who else touches them is in sections 5 and 6.</p>
+<p>The rights in section 9 — to know, to get a copy, to have data corrected, to have it deleted — are available to you on the same terms, and we will not treat you any differently for using them. Write to terrorobado@gmail.com.</p>
+<h2>11. Age</h2>
+<p>The app is intended for people aged 16 or older. If you are under 16, please do not use it and do not create an account. We do not knowingly collect data from children.</p>
+<h2>12. Changes</h2>
+<p>The current version is 2026-08-12. It is always available in the app and at the public link. The version date in the document itself is how you can tell that the text has changed.</p>
+<p class="meta"><a href="./">All Petfolio documents</a></p>
+</body>
+</html>
