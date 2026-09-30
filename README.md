@@ -13,5 +13,6 @@
 
 ## Структура
 
-- корень — русская версия: `index.html`, `terms.html`, `privacy.html`, `consent_pd.html`, `consent_marketing.html`, `delete-account.html`;
-- `en/` — международная версия: `index.html`, `terms.html`, `privacy.html`, `delete-account.html`.
+- корень — международная (английская) версия, основная: `index.html`, `terms.html`, `privacy.html`, `delete-account.html`;
+- `ru/` — русская версия: `index.html`, `terms.html`, `privacy.html`, `consent_pd.html`, `consent_marketing.html`, `delete-account.html`;
+- `en/` — перенаправления со старых адресов на корень.
